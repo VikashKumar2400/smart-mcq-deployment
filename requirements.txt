@@ -1,8 +1,7 @@
-streamlit==1.47.1
-torch==2.7.1
-transformers==4.53.2
-numpy==2.3.1
-pandas==2.3.1
-scikit-learn==1.7.1
-accelerate==1.9.0
-sentence-transformers==5.0.0
+streamlit
+torch
+transformers
+numpy
+pandas
+scikit-learn
+sentence-transformers
