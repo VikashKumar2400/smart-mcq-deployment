@@ -12,7 +12,7 @@ from model import BiLSTMClassifier
 
 st.set_page_config(
     page_title="Smart MCQ Solver",
-    page_icon="🧠",
+    page_icon="",
     layout="centered"
 )
 
@@ -119,7 +119,7 @@ Option E:
 # Streamlit UI
 # =====================================================
 
-st.title("🧠 Smart MCQ Solver")
+st.title(" Smart MCQ Solver")
 st.subheader("Deep Learning & Generative AI Project")
 
 st.write(
@@ -144,7 +144,7 @@ option_e = st.text_input("Option E")
 
 st.divider()
 
-if st.button("🚀 Predict Top-3 Answers", use_container_width=True):
+if st.button(" Predict Top-3 Answers", use_container_width=True):
 
     if (
         question.strip() == "" or
